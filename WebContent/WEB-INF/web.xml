@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.2//EN" "http://java.sun.com/j2ee/dtds/web-app_2_2.dtd">
+<web-app id="WebApp_ID">
+	<display-name>Arpelle</display-name>
+	<servlet>
+		<servlet-name>AdminValidation</servlet-name>
+		<display-name>AdminValidation</display-name>
+		<description></description>
+		<servlet-class>admin.AdminValidation</servlet-class>
+		</servlet>
+		<servlet>
+		<servlet-name>Login</servlet-name>
+		<display-name>Login</display-name>
+		<description></description>
+		<servlet-class>addcart.Login</servlet-class>
+		</servlet>
+	<servlet>
+		<servlet-name>SignUp</servlet-name>
+		<display-name>SignUp</display-name>
+		<description></description>
+		<servlet-class>addcart.SignUp</servlet-class>
+		</servlet>
+	<servlet>
+		<servlet-name>Product_Modification</servlet-name>
+		<display-name>Product_Modification</display-name>
+		<description></description>
+		<servlet-class>admin.Product_Modification</servlet-class>
+		</servlet>	
+		
+<servlet>
+		<servlet-name>ForgotPass</servlet-name>
+		<display-name>ForgotPass</display-name>
+		<description></description>
+		<servlet-class>addcart.ForgotPass</servlet-class>
+		</servlet>
+		<servlet>
+		<servlet-name>AddCart</servlet-name>
+		<display-name>AddCart</display-name>
+		<description></description>
+		<servlet-class>addcart.AddCart</servlet-class>
+		</servlet>
+		<servlet>
+		<servlet-name>AddCart1</servlet-name>
+		<display-name>AddCart1</display-name>
+		<description></description>
+		<servlet-class>addcart.AddCart1</servlet-class>
+		</servlet>
+		
+		<servlet>
+		<servlet-name>DeleteCart</servlet-name>
+		<display-name>DeleteCart</display-name>
+		<description></description>
+		<servlet-class>addcart.DeleteCart</servlet-class>
+		</servlet>
+		<servlet>
+		<servlet-name>Banner</servlet-name>
+		<display-name>Banner</display-name>
+		<description></description>
+		<servlet-class>admin.Banner</servlet-class>
+		</servlet>
+		<servlet>
+			<servlet-name>Delete</servlet-name>
+			<display-name>Delete</display-name>
+			<description></description>
+			<servlet-class>addcart.Delete</servlet-class>
+		</servlet>
+<servlet-mapping>
+<servlet-name>AdminValidation</servlet-name>
+		<url-pattern>/AdminValidation</url-pattern>
+		</servlet-mapping>
+		<servlet-mapping>
+<servlet-name>AddCart</servlet-name>
+		<url-pattern>/AddCart</url-pattern>
+		</servlet-mapping>
+		<servlet-mapping>
+		<servlet-name>DeleteCart</servlet-name>
+		<url-pattern>/DeleteCart</url-pattern>
+		</servlet-mapping>
+	<servlet-mapping>
+<servlet-name>AddCart1</servlet-name>
+		<url-pattern>/AddCart1</url-pattern>
+		</servlet-mapping>
+		<servlet-mapping>
+<servlet-name>Login</servlet-name>
+		<url-pattern>/Login</url-pattern>
+		</servlet-mapping>
+		<servlet-mapping>
+<servlet-name>SignUp</servlet-name>
+		<url-pattern>/SignUp</url-pattern>
+		</servlet-mapping>
+<servlet-mapping>		
+	<servlet-name>Product_Modification</servlet-name>
+	<url-pattern>/Product_Modification</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+<servlet-name>ForgotPass</servlet-name>
+		<url-pattern>/ForgotPass</url-pattern>
+		</servlet-mapping>
+	<servlet-mapping>
+<servlet-name>Banner</servlet-name>
+		<url-pattern>/Banner</url-pattern>
+		</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Delete</servlet-name>
+		<url-pattern>/Delete</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+	
+</web-app>
+ 
