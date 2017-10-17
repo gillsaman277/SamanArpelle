@@ -17,6 +17,9 @@
 
 
 <style>
+.myslides{
+img-src:
+}
 .pbox {
 	width: 280px;
 	height: 480px;
@@ -92,7 +95,17 @@
 					int price = 0, totalItems = 0;
 					Statement stmt = connection.createStatement();
 
-					rs = stmt.executeQuery("select * from product");
+					String pcid = request.getParameter("id");
+					/*
+						INSERT INTO `product` (`pid`, `pname`, `price`, `pcid`, `pdesc`, `pquantity`) 
+						VALUES ('4', 'Shirt', '10', '101', 'Shirt', '10');
+
+					*/
+					String query = "select * from product";
+					if (pcid != null) {
+						query = query + " where pcid = " + pcid;
+					}
+					rs = stmt.executeQuery(query);
 					while (rs.next()) {
 						String pid1 = rs.getString(1);
 						pid1 = pid1 + 1;

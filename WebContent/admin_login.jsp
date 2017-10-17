@@ -18,7 +18,7 @@
 <div class="row">
 <div class="col-lg-3"></div>
  <div class="col-lg-6">
- <div align="center"><img src="project image/Arpelle Jackets&Accessories.png" height="200" width="200"></div> 
+ <div align="center"><img src="project image/login.jpg" height="200" width="200"></div> 
  <br>
             <form action="AdminValidation" method="post">
             <div class="panel panel-primary">

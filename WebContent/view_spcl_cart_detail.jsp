@@ -73,8 +73,8 @@
 						 <table width="100%" border="0" align="center" >
 							<tr > 
 							<td><strong>Total Payable Amountfor specialCart ::</strong><%=price %></td>
-   							<td align="right"><input name="btnContinue" type="button" id="btnContinue" value="&lt;&lt; Continue Shopping" onClick="window.location.href='index.jsp';" class="box"></td>
-							<td align="left"><input name="btnCheckout" type="button" id="btnCheckout" value="Proceed To Checkout &gt;&gt;" onClick="window.location.href='checkOut.jsp';" class="box"></td>
+   							<td align="right"><input name="btnContinue" type="button" id="btnContinue" value="&lt;&lt; Continue Shopping" onClick="window.location.href='paynow.jsp';" class="box"></td>
+							<td align="left"><input name="btnCheckout" type="button" id="btnCheckout" value="Proceed To Checkout &gt;&gt;" onClick="window.location.href='thankyou.jsp';> class="box"></td>
   
  							</tr>
 							</table>
